@@ -9,6 +9,8 @@ age = int(input("How old are you?"))
 # check age and display correct price
 if age < CHILD_AGE :
     print("You pay the child price")
+else:
+    print("You pay the adult price")
 
 print("Welcome to the zoo")
 
