@@ -1,4 +1,6 @@
 # examples of using for loops
+for num in range(0,3):
+    print("Hello")
 
 for num in range(18,23):
     print(num)
