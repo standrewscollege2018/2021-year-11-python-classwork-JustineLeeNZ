@@ -10,6 +10,15 @@ print("Hello", name)
 age = input("Enter your age")
 print("You are", age)
 
-# ask user for favourite movie
+#ask user for favourite movie
 movie = input("What is your favourite movie?")
 print("I really like" , movie, "too")
+
+# enter a number to multiply
+number1 = int(input("Enter a number"))
+print("If I times this number by two I get", number1 *2)
+
+# enter a decimal number to multiply
+number2 = float(input("Enter a decimal number"))
+print("If I times this number by two I get", number2 *2)
+
