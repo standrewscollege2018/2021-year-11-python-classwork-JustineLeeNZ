@@ -12,8 +12,13 @@ while keep_guessing == True:
     if number == 6 :
         print("\nThat's right") 
         keep_guessing = False
+    elif number > 6 :
+        print("\nToo high, guess again")
     else:
-        print("\nWrong, guess again")
+        print("\nToo low, guess again")
+        
+        
+print("Game over")
 
 
 
