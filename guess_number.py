@@ -6,13 +6,14 @@ keep_guessing = True
 
 while keep_guessing == True:
     # ask for guess
-    number = int(input("Enter a number"))
+    number = int(input("Enter a number between 1 and 10: "))
 
     # check guess
     if number == 6 :
+        print("\nThat's right") 
         keep_guessing = False
     else:
-        print("Wrong, guess again")
+        print("\nWrong, guess again")
 
 
 
