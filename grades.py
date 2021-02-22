@@ -20,7 +20,7 @@ if mark >= 0 and mark <= 100:
     else:
         print("Fail")
     
-    
+# mark not in valid range   
 else:
     print("Mark not eligible")
 
